@@ -1,0 +1,334 @@
+body {
+    font-size: 16px;
+    background-color: #61122f;
+    font-family: 'Oxygen', sans-serif;
+}
+/****NAVBAR HEADER START******/
+#header-nav {
+    background-color: gold;
+}
+.navbar-brand {
+    padding-top: 15px;
+}
+#logo-img {
+    width: 150px;
+    height: 150px;
+    margin: 10px 15px 10px 0px;
+    margin-left: -6%;
+}
+#brand-name {
+    font-family: 'Exo', sans-serif;
+    font-size: 45px;
+    color: #ef151e;
+    text-shadow: 1px 1px 1px #222;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+}
+.navbar#navbarNav {
+    float: right ;
+}
+#nav-list {
+    font-size: 20px;
+    font-weight: 550;
+    list-style-type: none;
+    margin-top: -5%;
+}
+#nav-list a {
+    color: #61122f;
+    text-align: center;
+    font-size: 0.95em;
+}
+#icon {
+    margin-right: 5%;
+}
+#icon3 {
+    margin-right: 5%;
+}
+#navlist3 {
+    margin-left: 12px;
+}
+#nav-list a:hover {
+    background: floralwhite;
+}
+#nav-list a i {
+    font-size: 1.8em;
+}
+#phone {
+    margin-top: -4%;
+}
+#phone a { /*Phone number*/
+    text-align: right;
+    padding-bottom: 0px;
+    font-size: 25px;
+    font-weight: 600;
+}
+#phone div { /*We deliver*/
+    color: #557c3e;
+    text-align: right;
+    padding-right: 20px;
+}
+.navbar-toggler {
+    margin-right: 0;
+}
+#call-btn {
+    text-decoration: none;
+    margin-top: 20px;
+}
+.btn {
+    background-color: gold;
+    color: #61122f;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+#xs-deliver {
+    color: #fff;
+}
+#navbarSupportedContent {
+    margin-top: 5%;
+}
+/****END NAVBAR HEADER****/
+
+/****HOMEPAGE*****/
+.jumbotron {
+    margin-bottom: 20px;
+}
+#menu-tile, #special-tile, #map-tile {
+    height: 250px;
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+    border: 2px solid #3f0c1f;
+    overflow: hidden;
+}
+#menu-tile:hover, #special-tile:hover, #map-tile:hover {
+    box-shadow: 0 1px 5px 1px rgb(148, 158, 168);
+}
+#menu-tile {
+    background: url("menu-tile.jpg") no-repeat;
+    background-position: 40% 10%;
+}
+#special-tile {
+    background: url("special-tile.jpg") no-repeat;
+    background-position: 80% 20%;
+}
+#menu-tile span, #special-tile span, #map-tile span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    opacity: 0.8;
+}
+#about {
+    color: #fff;
+}
+#awards {
+    margin-bottom: 21%;
+}
+/****END HOMEPAGE*****/
+/***FOOTER**/
+.panel-footer {
+    margin-top: 30px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background-color: #222;
+    border-top: 0;
+    color: #fff;
+}
+#hours, #address {
+    line-height: 2;
+}
+#hours > span, #address > span {
+    font-size: 1.3em;
+}
+#address p {
+    color: #557c3e;
+    font-size: .8em;
+    line-height: 1.8;
+}
+#testimonials {
+    font-style: italic;
+}
+#testimonials p:nth-child(2) {
+    margin-top: 25px;
+}
+/*****END FOOTER****/
+
+#main-content {
+    margin-top: 2%;
+    color: #fff;
+}
+
+/****MENU CATEGORIES PAGE****/
+.card-tile {
+    position: relative;
+    border: 2px solid #3f0c1f;
+    overflow: hidden;
+    width: 180px;
+    height: 200px;
+    margin: 0 auto 15px;
+}
+.card-tile span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    opacity: .8;
+}
+.card-tile:hover {
+    box-shadow: 0 1px 5px 1px #cccccc;
+}
+#menu-categories-tile + div {
+    margin-bottom: 50px;
+}
+/****SINGLE CATEGORY PAGE*****/
+.menu-item-tile {
+    margin-bottom: 25px;
+}
+.menu-item-tile hr {
+    width: 80%;
+}
+.menu-item-tile .menu-item-price {
+    font-size: 1.1em;
+    text-align: right;
+}
+.menu-item-tile .menu-item-price span {
+    font-size: .6em;
+}
+.menu-item-photo {
+    position: relative;
+    border: 2px solid #3f0c1f;
+    overflow: hidden;
+    padding: 0;
+    margin-left: auto;
+    margin-bottom: 20px;
+    max-width: 250px;
+}
+.menu-item-photo div {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 80px;
+    background-color: #557c3e;
+    text-align: center;
+}
+.menu-item-description {
+    padding-right: 30px;
+}
+h3.menu-item-tile {
+    margin: 0 0 10px;
+}
+.menu-item-details {
+    font-size: 0.9em;
+    font-style: italic;
+} 
+#mct {
+    margin-bottom: 4%;
+}
+/* *****large devices***** */
+@media(min-width: 1200px) {
+    .jumbotron {
+        background: url("Burger_King_Lille1296.jpg") no-repeat;
+        height: 675px;
+        box-shadow: 0 0 50px #3f0c1f;
+        border: 2px solid #3f0c1f;
+        margin-bottom: 40px;
+    }
+}
+/* *****medium devices***** */
+@media(min-width: 992px) and (max-width: 1199px) {
+    .jumbotron {
+        background: url("Burger_King_Lille992.jpg") no-repeat;
+        height: 558px;
+        box-shadow: 0 0 50px #3f0c1f;
+        border: 2px solid #3f0c1f;
+        margin-bottom: 40px;
+    }
+}
+/*****small devices only*****/
+@media(min-width: 768px) and (max-width: 992px) {
+    .jumbotron {
+        background: url("Burger_King_Lille768.jpg") no-repeat;
+        height: 432px;
+        box-shadow: 0 0 50px #3f0c1f;
+        border: 2px solid #3f0c1f;
+        margin-bottom: 40px;
+    }
+}
+/*****EXTRA SMALL*****/
+@media(min-width: 767px) {
+    .navbar-toggler {
+        display: none;
+    }
+}
+@media(min-width: 751px)
+{
+    #call-btn > a {
+        display: none;
+    }
+    #xs-deliver {
+        display: none;
+    }
+}
+@media(min-width: 0px) and (max-width: 768px){
+    .navbar-header {
+        float: left;
+    }
+     #logo-img , #navbarNav  {
+        display: none;
+    }
+    .panel-footer section {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .panel-footer section:nth-child(3) {
+        margin-bottom: 0;
+    }
+    .panel-footer section hr {
+        margin-left: 25%;
+        width: 50%;
+    }
+    .menu-item-photo {
+        margin-right: auto;
+    }
+    .menu-item-tile .menu-item-price {
+        text-align: center;
+    }
+    .menu-item-description {
+        text-align: center;
+    }
+    .menu-item-tile hr {
+        margin-left: 8%;
+    }
+    #call-btn > a {
+        font-size: 1.5em;
+        display: block;
+        margin: 0 20px;
+        padding: 10px;
+        border: 2px solid #fff;
+        background-color: gold;
+        color: #61122f;
+    }
+    #xs-deliver {
+        margin-top: 5px;
+        font-size: 0.7em;
+        letter-spacing: 0.1em;
+         text-transform: uppercase;
+    }
+}
+@media(max-width: 479px) {
+    #menu-tile, #special-tile {
+        width: 280px;
+        margin: 0 auto 15px;
+    }
+}
